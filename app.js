@@ -181,6 +181,12 @@ function extractGradientColor(gradient) {
   return m ? `#${m[1]}` : '#56a8ff';
 }
 
+window.money = money;
+window.liquidButton = liquidButton;
+window.escapeAttr = escapeAttr;
+window.extractGradientColor = extractGradientColor;
+window.triggerTransform = triggerTransform;
+
 function showToast(text) {
   const toast = document.getElementById('toast');
   toast.textContent = text;
